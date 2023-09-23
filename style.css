@@ -36,11 +36,13 @@ a:hover, a:active {
 .yellowh {
     display: inline-block;
     border: 3px solid #fff000;
+    border-radius: 10px;
     font-weight: bold;
 }
 
 .yellowborder {
     border: 3px solid #fff000;
+    border-radius: 10px;
     margin-bottom: 10px;
 }
 
@@ -61,6 +63,34 @@ a:hover, a:active {
     margin-top: 5px;
 }
 
+.pricelist img {
+    border-radius: 10px;
+}
+
+.price-important span {
+    color: #a6a6a6;
+}
+
+.pricelist-phone {
+    padding: 0;
+    list-style: none;
+}
+
+.zakaz h5 {
+    padding: 0;
+}
+.zakaz ul {
+    text-align: center;
+}
+
+.items-zakaz li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.items-social-head img {
+    border-radius: 10px;
+}
 /*--------------------------------------------------------------
 # Helper Utilities
 --------------------------------------------------------------*/
@@ -192,6 +222,10 @@ a:hover, a:active {
 .social-profiles ul li a {
     color: #191919;
     transition: all 0.35s;
+}
+
+.social-profiles img {
+    border-radius: 10px;
 }
 
 .social-profiles ul li a:hover {
