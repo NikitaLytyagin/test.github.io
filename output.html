@@ -16,6 +16,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>
 </head>
@@ -45,7 +46,7 @@
     <ul class="main-menu flex flex-column justify-content-center"> 
     	<br>
     	<li><a href="index.html">О НАС</a></li>
-        <li><a href=".html">Внутреннее освещение</a></li>
+        <li><a href="input.html">Внутреннее освещение</a></li>
         <li class="current-menu-item"><a href="output.html">Наружное освещение</a></li>
         <li><a href=".html">СКИДКИ</a></li>
     </ul>
@@ -83,9 +84,13 @@
 
         <div class="row">
 
+            <div class="col-md-12 col-lg-12 mb-12 mb-lg-12" style="text-align: left;">
+                <div><a href="#Rossa" style="color: black;"><H4 class="yellowh"> &nbsp Rossa &nbsp</H4></a> &nbsp &nbsp <a href="#Fumagalli" style="color: black;"><H4 class="yellowh"> &nbsp Fumagalli &nbsp</H4></a> &nbsp &nbsp <a href="#Lunga" style="color: black;"><H4 class="yellowh"> &nbsp Lunga &nbsp</H4></a></div>           
+            </div>
+
 
             <div class="col-md-12 col-lg-12 mb-12 mb-lg-12" style="text-align: left;">
-            	<div><H4 style="font-weight: bold;">&nbsp ОПОРЫ: &nbsp</H4></div>        
+            	<div><H4 id="Rossa" style="font-weight: bold;">&nbsp Уличное освещение Rossa: &nbsp</H4></div>        
             </div>
 
              <div class="col-12 col-md-6 col-lg-4 h-objects">
@@ -120,12 +125,9 @@
                         <li><span>Пусковой ток: </span>21A / 225µs для 24W, 36W;<br>46A / 250µs для 48W, 72W</li>
                         
                     </ul>
-                    <br>
+
                     <div class="zakaz">
-                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp</H5>
-                        <ul class="align-items-center">
-                            <li><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li>
-                        </ul>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
                         <ul class="align-items-center items-zakaz">
                             <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
                             <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
@@ -139,41 +141,39 @@
             <div class="col-12 col-md-6 col-lg-4 h-objects">
                 <div class="portfolio-content yellowborder pricelist">
                     <figure>
-                        <img src="images/pricelist/1.jpg" alt="">
+                        <img src="images/pricelist/2.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
                     </figure>
                     <br> 
-                    <H4 class="yellowh">&nbsp CUT LED &nbsp</H4>
+                    <H4 class="yellowh">&nbsp KARIN LED 2400-6000 &nbsp</H4>
                     <ul style="text-align: left;" class="price-important">
 
-                        <li><span>Применение: </span>поселковые дороги (внутренние), окружение офисных зданий, парки, пешеходные зоны, паркинги</li>
+                        <li><span>Применение: </span> окружение офисных зданий, парки, пешеходные зоны</li>
 
-                        <li><span>Степень защиты: </span>IP 66 для оптической части и ПРА</li>      
+                        <li><span>Степень защиты: </span>IP 65 для оптической части и питающей системы</li>      
 
-                        <li><span>Материал: </span>алюминиевый, анодированный сплав</li>
+                        <li><span>Материал: </span>анодированный алюминиевый сплав <br>
+                        Исключением является KARIN LED 6000 – только окрашенный алюминиевый сплав</li>
 
-                        <li><span>Цвет: </span>Нержавеющая сталь / Серый</li>
+                        <li><span>Анодирование: </span>10 цветов, каждый с возможностью эффекта глянец</li>
 
-                        <li><span>Оптическая система: </span>линза из PMMA, сменный модуль LED</li>
+                        <li><span>Pассеиватель: </span>морозко (PMMA)</li>
 
-                        <li><span>Количество светодиодов: </span>12 для 24W, 36W; 24 для 48W, 72W</li>
+                        <li><span>Количество светодиодов: </span>16 для 32W; 24 для 48W; 44 для 82W; 58 для 116W</li>
 
-                        <li><span>Срок эксплуатации: </span>L90F10 - 50 000ч, L80F20 - 100 000ч</li>
+                        <li><span>Срок эксплуатации: </span>L90F10 – 50 000ч, L80F20 – 100 000ч</li>
 
-                        <li><span>CRI: </span>>70 для 5000K, 4000K; >80 для 3500K, 2700K</li>
+                        <li><span>CRI: </span>>80 dla 2700K, 3500K; >70 dla 4000K, 5000K</li>
+
+                        <li><span>Корректирующий коэффициент S/P:</span>1.45 dla 3500K, 1.55 dla 4000K; 1.8 dla 5000K</li>
 
                         <li><span>Частота напряжения питания: </span>50/60Hz</li>
 
-                        <li><span>Коэффициент мощности: </span>≥0.95</li>
-
-                        <li><span>Пусковой ток: </span>21A / 225µs для 24W, 36W;<br>46A / 250µs для 48W, 72W</li>
+                        <li><span>Коэффициент мощности: </span>≥0.9</li>
                         
                     </ul>
-                    <br>
+
                     <div class="zakaz">
-                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp</H5>
-                        <ul class="align-items-center">
-                            <li><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li>
-                        </ul>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
                         <ul class="align-items-center items-zakaz">
                             <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
                             <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
@@ -187,41 +187,140 @@
             <div class="col-12 col-md-6 col-lg-4 h-objects">
                 <div class="portfolio-content yellowborder pricelist">
                     <figure>
-                        <img src="images/pricelist/1.jpg" alt="">
+                        <img src="images/pricelist/3.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
                     </figure>
                     <br> 
-                    <H4 class="yellowh">&nbsp CUT LED &nbsp</H4>
+                    <H4 class="yellowh">&nbsp S-40 &nbsp</H4>
                     <ul style="text-align: left;" class="price-important">
 
                         <li><span>Применение: </span>поселковые дороги (внутренние), окружение офисных зданий, парки, пешеходные зоны, паркинги</li>
 
-                        <li><span>Степень защиты: </span>IP 66 для оптической части и ПРА</li>      
+                        <li><span>Высота H [м]: </span>4,03</li>      
 
-                        <li><span>Материал: </span>алюминиевый, анодированный сплав</li>
+                        <li><span>Материал: </span>Металлопластиковая</li>
 
-                        <li><span>Цвет: </span>Нержавеющая сталь / Серый</li>
+                        <li><span>Цвет: </span>Черный</li>
 
-                        <li><span>Оптическая система: </span>линза из PMMA, сменный модуль LED</li>
+                        <li><span>Вес нетто [кг]: </span>39,0</li>
 
-                        <li><span>Количество светодиодов: </span>12 для 24W, 36W; 24 для 48W, 72W</li>
+                        <li><span>Светильники для монтажа непосредственно на тип окончания „B” – Ø60: </span>OS-1, OP, OPA-1</li>
 
-                        <li><span>Срок эксплуатации: </span>L90F10 - 50 000ч, L80F20 - 100 000ч</li>
+                        <li><span>Системы консолей тип окончания „A” – Ø60: </span>1, 2, 2+1, 3, 3+1</li>
 
-                        <li><span>CRI: </span>>70 для 5000K, 4000K; >80 для 3500K, 2700K</li>
+                        <li><span>Тип фундамента/анкерного устройства: </span>B-40B / Z-40B</li>
 
-                        <li><span>Частота напряжения питания: </span>50/60Hz</li>
+                        <li><span>Высокая устойчивость: </span>к неблагоприятным атмосферным условиям, соли, аммиакаи других едких веществ, излучению UV</li>
 
                         <li><span>Коэффициент мощности: </span>≥0.95</li>
 
-                        <li><span>Пусковой ток: </span>21A / 225µs для 24W, 36W;<br>46A / 250µs для 48W, 72W</li>
+                        <li><span></span></li>
+
+                        <br><br><br>
                         
                     </ul>
-                    <br>
+
                     <div class="zakaz">
-                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp</H5>
-                        <ul class="align-items-center">
-                            <li><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li>
-                        </ul>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
+                        <ul class="align-items-center items-zakaz">
+                            <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
+                            <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
+                            <li><a href="https://t.me/+79884038933"><img src="images/tg-icon.png"></a></li>
+                        </ul><!-- .breadcrumbs -->
+                    </div>
+                    
+                </div><!-- .portfolio-content -->
+            </div><!-- .col -->
+            <br><br>
+
+            <div class="col-md-12 col-lg-12 mb-12 mb-lg-12" style="text-align: left;">
+                <div><H4 id="Fumagalli" style="font-weight: bold;">&nbsp Уличное освещение Fumagalli: &nbsp</H4></div>        
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 h-objects">
+                <div class="portfolio-content yellowborder pricelist">
+                    <figure>
+                        <img src="images/pricelist/4.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
+                    </figure>
+                    <br> 
+                    <H4 class="yellowh">&nbsp NEBO OFIR/ CEFA 2L &nbsp</H4>
+                    <ul style="text-align: left;" class="price-important">
+
+                        <li><span>Артикул: </span>U23.202.R20.WXF1R</li>
+
+                        <li><span>Цвет корпуса (арматуры): </span>Белый</li>
+
+                        <li><span>Цвет плафона (стекла): </span>Прозрачный</li>      
+
+                        <li><span>Материал корпуса (арматуры): </span>Композитный полимер</li>
+
+                        <!--<li><span>Стиль: </span>Классика</li>-->
+
+                        <li><span>Материал плафона (стекла): </span>ПММА</li>
+
+                        <!--<li><span>Форма "головы" светильника: </span>Четырехгранный</li>-->
+
+                        <!--<li><span>Тип установки: </span>Столб</li>-->
+
+                        <li><span>Тип крепления: </span>Анкерная закладная ТИП "С" (3 закладных детали, рамка, гайки, декоративные колпачки)</li>
+
+                        <li><span>Количество кронштейнов (консолей): </span>2</li>
+
+                        <li><span>Количество ламп (цоколей): </span>2</li>
+
+                        <li><span>Цоколь: </span>E27</li>
+
+                        <li><span><a href="CEFA2L.html" style="color: black; font-size: 16px; font-weight: bold;">Подробнее</a></span></li>
+                        
+                    </ul>
+
+                    <div class="zakaz">
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Цена: 83 882,26 руб./шт &nbsp</H5>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
+                        <ul class="align-items-center items-zakaz">
+                            <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
+                            <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
+                            <li><a href="https://t.me/+79884038933"><img src="images/tg-icon.png"></a></li>
+                        </ul><!-- .breadcrumbs -->
+                    </div>
+                    
+                </div><!-- .portfolio-content -->
+            </div><!-- .col -->
+
+
+            <div class="col-12 col-md-6 col-lg-4 h-objects">
+                <div class="portfolio-content yellowborder pricelist">
+                    <figure>
+                        <img src="images/pricelist/30.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
+                    </figure>
+                    <br> 
+                    <H4 class="yellowh">&nbsp IAFAET.R/CEFA &nbsp</H4>
+                    <ul style="text-align: left;" class="price-important">
+
+                        <li><span>Артикул: </span>U23.162.000.AXF1R</li>
+
+                        <li><span>Применение: </span>парковые дорожки, тротуары, газоны в парках и скверах, а так же ландшафтные и архитектурные объекты</li>
+
+                        <li><span>Стиль: </span>Классика</li>
+
+                        <li><span>Температура использования: </span>от -60 до +90</li>
+
+                        <li><span>Цвет плафона (стекла): </span>Прозрачный</li>      
+
+                        <li><span>Материал плафона (стекла): </span>PMMA</li>
+
+                        <li><span>Материал корпуса (арматуры): </span>Композитный полимер RESIN</li>
+
+                        <li><span>Степень защиты: </span>IP55</li>
+
+                        <li><span>Срок службы: </span>не менее 20 лет</li>
+
+                        <li><span><a href="CEFA.html" style="color: black; font-size: 16px; font-weight: bold;">Подробнее</a></span></li>
+                        
+                    </ul>
+
+                    <div class="zakaz">
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Цена: 18 307,52 руб./шт &nbsp</H5>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
                         <ul class="align-items-center items-zakaz">
                             <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
                             <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
@@ -235,41 +334,256 @@
             <div class="col-12 col-md-6 col-lg-4 h-objects">
                 <div class="portfolio-content yellowborder pricelist">
                     <figure>
-                        <img src="images/pricelist/1.jpg" alt="">
+                        <img src="images/pricelist/31.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
                     </figure>
                     <br> 
-                    <H4 class="yellowh">&nbsp CUT LED &nbsp</H4>
+                    <H4 class="yellowh">&nbsp NEBO ADAM/GLOBE 400 2L &nbsp</H4>
                     <ul style="text-align: left;" class="price-important">
 
-                        <li><span>Применение: </span>поселковые дороги (внутренние), окружение офисных зданий, парки, пешеходные зоны, паркинги</li>
+                        <li><span>Артикул: </span>G40.202.M20.AYE27</li>
 
-                        <li><span>Степень защиты: </span>IP 66 для оптической части и ПРА</li>      
+                        <li><span>Применение: </span>парковые дорожки, тротуары, а также ландшафтные и архитектурные объекты</li>
 
-                        <li><span>Материал: </span>алюминиевый, анодированный сплав</li>
+                        <li><span>Стиль: </span>Классика</li>
 
-                        <li><span>Цвет: </span>Нержавеющая сталь / Серый</li>
+                        <li><span>Температура использования: </span>от -60 до +90</li>
 
-                        <li><span>Оптическая система: </span>линза из PMMA, сменный модуль LED</li>
+                        <li><span>Цвет плафона (стекла): </span>Прозрачный</li>      
 
-                        <li><span>Количество светодиодов: </span>12 для 24W, 36W; 24 для 48W, 72W</li>
+                        <li><span>Материал плафона (стекла): </span>PMMA</li>
 
-                        <li><span>Срок эксплуатации: </span>L90F10 - 50 000ч, L80F20 - 100 000ч</li>
+                        <li><span>Материал корпуса (арматуры): </span>Композитный полимер RESIN</li>
 
-                        <li><span>CRI: </span>>70 для 5000K, 4000K; >80 для 3500K, 2700K</li>
+                        <li><span>Степень защиты: </span>IP65</li>
 
-                        <li><span>Частота напряжения питания: </span>50/60Hz</li>
+                        <li><span>Срок службы: </span>не менее 20 лет</li><br>
 
-                        <li><span>Коэффициент мощности: </span>≥0.95</li>
-
-                        <li><span>Пусковой ток: </span>21A / 225µs для 24W, 36W;<br>46A / 250µs для 48W, 72W</li>
+                        <li><span><a href="GLOBE4002L.html" style="color: black; font-size: 16px; font-weight: bold;">Подробнее</a></span></li>
                         
                     </ul>
-                    <br>
+
                     <div class="zakaz">
-                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp</H5>
-                        <ul class="align-items-center">
-                            <li><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li>
-                        </ul>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Цена: 103 871,46 руб./шт &nbsp</H5>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
+                        <ul class="align-items-center items-zakaz">
+                            <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
+                            <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
+                            <li><a href="https://t.me/+79884038933"><img src="images/tg-icon.png"></a></li>
+                        </ul><!-- .breadcrumbs -->
+                    </div>
+                    
+                </div><!-- .portfolio-content -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-md-6 col-lg-4 h-objects">
+                <div class="portfolio-content yellowborder pricelist">
+                    <figure>
+                        <img src="images/pricelist/32.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
+                    </figure>
+                    <br> 
+                    <H4 class="yellowh">&nbsp TABOR OFIR/GLOBE 400 3L &nbsp</H4>
+                    <ul style="text-align: left;" class="price-important">
+
+                        <li><span>Артикул: </span>E35.205.R30.AXH27</li>
+
+                        <li><span>Применение: </span>парковые дорожки, тротуары, а также ландшафтные и архитектурные объекты</li>
+
+                        <li><span>Стиль: </span>Классика</li>
+
+                        <li><span>Температура использования: </span>от -60 до +90</li>
+
+                        <li><span>Цвет плафона (стекла): </span>Прозрачный</li>      
+
+                        <li><span>Материал плафона (стекла): </span>PMMA</li>
+
+                        <li><span>Материал корпуса (арматуры): </span>Композитный полимер RESIN</li>
+
+                        <li><span>Степень защиты: </span>IP55</li>
+
+                        <li><span>Срок службы: </span>не менее 20 лет</li>
+
+                        <li><span><a href="GLOBE4003L.html" style="color: black; font-size: 16px; font-weight: bold;">Подробнее</a></span></li>
+                        
+                    </ul>
+
+                    <div class="zakaz">
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Цена: 150 208,52 руб./шт &nbsp</H5>
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
+                        <ul class="align-items-center items-zakaz">
+                            <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
+                            <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
+                            <li><a href="https://t.me/+79884038933"><img src="images/tg-icon.png"></a></li>
+                        </ul><!-- .breadcrumbs -->
+                    </div>
+                    
+                </div><!-- .portfolio-content -->
+            </div><!-- .col -->
+            <br><br>
+
+            <div class="col-md-12 col-lg-12 mb-12 mb-lg-12" style="text-align: left;">
+                <div><H4 id="Lunga" style="font-weight: bold;">&nbsp Уличное освещение Lunga: &nbsp</H4></div>        
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 h-objects">
+                <div class="portfolio-content yellowborder pricelist">
+                    <figure>
+                        <img src="images/pricelist/5.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
+                    </figure>
+                    <br> 
+                    <H4 class="yellowh">&nbsp СВЕТОДИОДНЫЙ КОМПЛЕКС MEDEN &nbsp</H4>
+                    <ul style="text-align: left;" class="price-important">
+
+                        <li><span>Высота (м): </span>3,0 - 6,0</li>
+
+                        <li><span>Сечение ствола (мм): </span>300х300</li>      
+
+                        <li><span>Мощность (Вт): </span>30-60</li>
+
+                        <li><span>Толщина стенки (мм): </span>5</li>
+
+                        <li><span>Световой поток (лм): </span>3300-9000</li>
+
+                        <li><span>Световая отдача (лм/Вт): </span>110-150</li>
+
+                        <li><span>Обозначение фланца: </span><br>П-К400-Мц350-12-М12-8</li>
+
+                        <li><span>Рекомендуемый фундамент: </span>ФШ-1,0-М12-8</li>
+
+                        <li><span>Вес (кг): </span>59-???</li>
+
+                        <br>
+                        
+                    </ul>
+
+                    <div class="zakaz">
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
+                        <ul class="align-items-center items-zakaz">
+                            <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
+                            <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
+                            <li><a href="https://t.me/+79884038933"><img src="images/tg-icon.png"></a></li>
+                        </ul><!-- .breadcrumbs -->
+                    </div>
+                    
+                </div><!-- .portfolio-content -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-md-6 col-lg-4 h-objects">
+                <div class="portfolio-content yellowborder pricelist">
+                    <figure>
+                        <img src="images/pricelist/6.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
+                    </figure>
+                    <br> 
+                    <H4 class="yellowh">&nbsp СВЕТОДИОДНЫЙ КОМПЛЕКС TWIST I &nbsp</H4>
+                    <ul style="text-align: left;" class="price-important">
+
+                        <li><span>Высота (м): </span>4,0 - 8,0</li>
+
+                        <li><span>Диаметр (мм): </span>230</li>      
+
+                        <li><span>Мощность (Вт): </span>20-40</li>
+
+                        <li><span>Толщина стенки (мм): </span>4</li>
+
+                        <li><span>Световой поток (лм): </span>3000/6000</li>
+
+                        <li><span>Световая отдача (лм/Вт): </span>150</li>
+
+                        <li><span>Обозначение фланца: </span><br>П-К290-Мц230-16-M20-4</li>
+
+                        <li><span>Рекомендуемый фундамент: </span>ФШ-1,5-М20х4</li>
+
+                        <li><span>Вес (кг): </span>39-70</li>
+
+                        <li><span>Аналог ROSA: </span>SNAKE I LED</li>
+                        
+                    </ul>
+
+                    <div class="zakaz">
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
+                        <ul class="align-items-center items-zakaz">
+                            <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
+                            <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
+                            <li><a href="https://t.me/+79884038933"><img src="images/tg-icon.png"></a></li>
+                        </ul><!-- .breadcrumbs -->
+                    </div>
+                    
+                </div><!-- .portfolio-content -->
+            </div><!-- .col -->
+
+             <div class="col-12 col-md-6 col-lg-4 h-objects">
+                <div class="portfolio-content yellowborder pricelist">
+                    <figure style="">
+                        <img src="images/pricelist/7.jpg" alt="" style="border-radius: 10px; max-height: 800px; min-height: 100px;">
+                    </figure>
+                    <br> 
+                    <H4 class="yellowh">&nbsp СВЕТОДИОДНЫЙ КОМПЛЕКС ROUND &nbsp</H4>
+                    <ul style="text-align: left;" class="price-important">
+
+                        <li><span>Высота (м): </span>0,6 - 1,2</li>
+
+                        <li><span>Диаметр (мм): </span>110/150</li>      
+
+                        <li><span>Мощность (Вт): </span>24-30</li>
+
+                        <li><span>Толщина стенки (мм): </span>2,5/3</li>
+
+                        <li><span>Световой поток (лм): </span>1800-2300</li>
+
+                        <li><span>Световая отдача (лм/Вт): </span>76</li>
+
+                        <li><span>Обозначение фланца: </span>Д110-МцТ80-25-М8-3/Д150-МцТ80-25-М12-3</li>
+
+                        <li><span>Рекомендуемый фундамент: </span><br>ФШ110-Мц80-М8-3/ФШ110-Мц80-М12-3</li>
+
+                        <li><span>Вес (кг): </span>5,0-6,5/11,0-12,8</li>
+                        
+                    </ul>
+
+                    <div class="zakaz">
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
+                        <ul class="align-items-center items-zakaz">
+                            <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
+                            <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
+                            <li><a href="https://t.me/+79884038933"><img src="images/tg-icon.png"></a></li>
+                        </ul><!-- .breadcrumbs -->
+                    </div>
+                    
+                </div><!-- .portfolio-content -->
+            </div><!-- .col -->
+
+            <div class="col-12 col-md-6 col-lg-4 h-objects">
+                <div class="portfolio-content yellowborder pricelist">
+                    <figure>
+                        <img src="images/pricelist/8.jpg" alt="" style="border: 3px solid #e4e4e4; border-radius: 10px;">
+                    </figure>
+                    <br> 
+                    <H4 class="yellowh">&nbsp СВЕТОДИОДНЫЙ КОМПЛЕКС RANG T &nbsp</H4>
+                    <ul style="text-align: left;" class="price-important">
+
+                        <li><span>Высота (м): </span>3,0 - 8,0</li>
+
+                        <li><span>Сечение ствола (мм): </span>150х95</li>      
+
+                        <li><span>Мощность (Вт): </span>60-120</li>
+
+                        <li><span>Толщина стенки (мм): </span>3</li>
+
+                        <li><span>Световой поток (лм): </span>9000-18000</li>
+
+                        <li><span>Световая отдача (лм/Вт): </span>150</li>
+
+                        <li><span>Обозначение фланца: </span><br>П-К240-Мц170-12-М16-4</li>
+
+                        <li><span>Рекомендуемый фундамент: </span>ФШ-1,0-М16-4</li>
+
+                        <li><span>Вес (кг): </span>24,8 - 71,6</li>
+
+                        <li><span>Аналог ROSA: </span>CUT II LED</li>
+                        
+                    </ul>
+
+                    <div class="zakaz">
+                        <H5 class="yellowh" style="font-weight: bold;">&nbsp Оформить заказ по телефону: &nbsp<br> <li style="list-style: none;"><a href="tel:+79884038933" style="color: black;">+7(988)403-89-33</a></li></H5>
                         <ul class="align-items-center items-zakaz">
                             <li><a href="tel:+79884038933"><img src="images/phone-icon.png"></a></li>
                             <li><a href="https://wa.me/79884038933"><img src="images/wa-icon.png"></a></li>
